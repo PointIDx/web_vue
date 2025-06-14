@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -b gh-pages"
+    "deploy": "gh-pages -d dist -b gh-pages -r https://${{ secrets.GITHUB_TOKEN }}@github.com/PointIDx/web_vue.git"
   },
   "dependencies": {
     "vue": "^3.5.13"
