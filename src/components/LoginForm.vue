@@ -12,7 +12,7 @@ const props = defineProps({
 <template>
   <form :class="cn('flex flex-col gap-6', props.class)">
     <div class="flex flex-col items-center gap-2 text-center">
-      <h1 class="text-2xl font-bold">Login to your account</h1>
+      <h1 class="text-2xl font-bold">Login pointID to your account</h1>
       <p class="text-muted-foreground text-sm text-balance">
         Enter your email below to login to your account
       </p>
