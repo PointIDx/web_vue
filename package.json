@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -b gh-pages -r https://${{ secrets.ACCESS_TOKEN  }}@github.com/PointIDx/web_vue.git"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.10",
